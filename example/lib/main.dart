@@ -9,6 +9,8 @@ void main() {
       port: 5000,
       jwtKey: 'S3CR3T',
       cors: true,
+      certificateChain: 'assets/certificates/certificate.crt',
+      privateKey: 'assets/certificates/private.key',
     ),
   );
 }
