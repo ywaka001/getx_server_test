@@ -9,6 +9,7 @@ void main() {
       port: 5000,
       jwtKey: 'S3CR3T',
       cors: true,
+      // SSL証明書追加（OPENSSL）
       certificateChain: 'assets/certificates/certificate.crt',
       privateKey: 'assets/certificates/private.key',
     ),
